@@ -1,1 +1,7 @@
-.header-logo {}
+.header-logo.img {
+  width: 50%;
+}
+
+.p{
+color: blue;
+}
