@@ -1,15 +1,30 @@
       .header-logo {
-        width: 10%;
+        width: 15%;
+        margin-left: 30px;
       }
 
       .flex {
         display: flex;
         justify-content: space-between;
-        flex-wrap: no-wrap;
+
       }
 
-      .nav ul li{
-        display: inline-block;
-        margin-right: 10px;
-        padding-right: 10px;
+      .nav-list {
+        display: flex;
+        list-style: none;
+        margin-top: 10px;
+
+        margin-right: 0px;
+
+
+      }
+
+      .nav-list li {
+
+        padding-right: 20px;
+      }
+
+      .relative{
+text-align: right;
+
       }
