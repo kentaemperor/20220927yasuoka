@@ -6,25 +6,60 @@
       .flex {
         display: flex;
         justify-content: space-between;
-
       }
 
       .nav-list {
         display: flex;
         list-style: none;
         margin-top: 10px;
-
         margin-right: 0px;
-
-
       }
 
       .nav-list li {
-
         padding-right: 20px;
       }
 
-      .relative{
-text-align: right;
+
+
+      .img-firstview {
+        margin-top: 10px;
+        position: relative;
+        text-align: right;
+
+      }
+
+
+      .firstview-title {
+        position: absolute;
+        top: 20%;
+        left: 18%;
+        font-size: 50px;
+        color: rgb(161, 24, 47);
+
+      }
+
+      .span-title {
+        color: rgb(53, 188, 188);
+      }
+
+      .firstview-lead {
+        position: absolute;
+        top: 50%;
+        left: 18%;
+        font-size: 23px;
+        color: rgb(161, 24, 47);
+
+      }
+
+      .span-lead {
+        color: rgb(53, 188, 188);
+
+      }
+
+      .firstview-text {
+        position: absolute;
+        top: 55%;
+        left: 18%;
+        font-size: 15px;
 
       }
