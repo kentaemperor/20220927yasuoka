@@ -24,8 +24,8 @@
       .img-firstview {
         margin-top: 10px;
         position: relative;
-        text-align: right;
-
+        margin-left: auto;
+        margin-right: 0;
       }
 
 
@@ -61,5 +61,36 @@
         top: 55%;
         left: 18%;
         font-size: 15px;
+        padding-top: 5px;
 
+      }
+
+
+
+      .common-sub-title {
+        margin-top: 50px;
+        color: rgb(197, 44, 197);
+
+      }
+
+      .common-title {}
+
+
+      .news-list {
+        column-count: 3;
+
+
+      }
+
+
+      .news-date {}
+
+      .news-btn{
+        list-style: none;
+        width: 200px;
+      }
+
+
+      .news-detail {
+        list-style: none;
       }
