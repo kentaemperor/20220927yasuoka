@@ -26,6 +26,8 @@
         position: relative;
         margin-left: auto;
         margin-right: 0;
+        display: block;
+
       }
 
 
@@ -85,7 +87,7 @@
 
       .news-date {}
 
-      .news-btn{
+      .news-btn {
         list-style: none;
         width: 200px;
       }
