@@ -69,7 +69,12 @@
 
       }
 
-      .news {}
+      .news {
+        border-bottom: 2px solid;
+        width: 800px;
+        padding-top: 30px;
+
+      }
 
 
       .common-sub-title {
@@ -127,8 +132,20 @@
         margin-bottom: 10px;
       }
 
+      .common-sub-title2 {
+        margin-top: 50px;
+        color: rgb(197, 44, 197);
+        margin-left: 300px;
 
 
+      }
+
+      .common-title2 {
+        margin-top: 10px;
+        margin-bottom: 20px;
+        margin-left: 300px;
+
+      }
 
       .container {
         background-color: #ebebeb;
@@ -191,11 +208,15 @@
 
       }
 
+
+
+
       .blog-container {
         display: flex;
         justify-content: space-between;
         margin-left: auto;
         margin-right: auto;
+        background-color: #ebebeb;
       }
 
 
@@ -235,3 +256,20 @@
       .blog-date {}
 
       .blog-tag-item {}
+
+      
+
+      .blog-btn{
+        width: 200px;
+        padding: 10px 0;
+        color: magenta;
+        border-radius: 30px;
+
+        border-color: magenta;
+
+        text-align: center;
+        margin: 100px auto 0;
+        display: block;
+
+        box-shadow: 5px 5px 0 magenta;
+      }
