@@ -212,40 +212,44 @@
 
       }
 
+      .service-content {
+        display: grid;
+        grid-template-rows: 200px 200px;
+        grid-template-columns: 2fr 2fr;
+      }
+
+
+
+
+
       .service-wrap-item-img img {
         width: 100%;
 
       }
 
       .service-wrap-item-img {
-        width: 60%;
+        width: 30%;
         margin-left: auto;
         margin-right: auto;
 
       }
 
       .service-wrap-item-first {
-        width: 350px;
-
-        position: relative;
-        margin-left: 300px;
         background-color: magenta;
-        padding-bottom: 40px;
+        grid-row: 1 / 4;
+        grid-column: 1 / 2;
 
 
       }
 
       .service-wrap-item-second {
-        width: 350px;
-        
-
-        position: absolute;
-        margin-left: 600px;
         background-color: violet;
-        margin-top: -300px;
+        grid-row: 1 / 2;
+        grid-column: 2 / 3;
 
 
       }
+
 
       .service-wrap-item-third {
         width: 20%;
