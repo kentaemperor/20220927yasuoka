@@ -362,6 +362,7 @@
 
       .blog-img img {
         width: 100%;
+        border-radius: 20px 0 0 0;
       }
 
       .blog-img {
@@ -418,17 +419,23 @@
 
       .blog-btn {
         width: 200px;
+
         padding: 10px 0;
         color: magenta;
         border-radius: 30px;
 
-        border-color: magenta;
+        border: 1px solid magenta;
 
         text-align: center;
         margin: 100px auto 0;
         display: block;
 
-        box-shadow: 5px 5px 0 magenta;
+        font-weight: bold;
+        background-color: white;
+
+        margin-top: 30px;
+
+
 
       }
 
@@ -472,5 +479,42 @@
         border: 1px solid #ccc;
         padding: 20px;
         width: 500px;
+
+      }
+
+
+
+
+      .recruit-content {
+        display: flex;
+        margin-top: 100px;
+        position: relative;
+
+      }
+
+      .recruit-title {
+        position: absolute;
+        margin-top: -160px;
+        margin-left: 300px;
+        color: white;
+        font-weight: bold;
+        font-size: 20px;
+
+      }
+
+      .recruit-title2 {
+        position: absolute;
+
+
+      }
+
+
+
+
+
+      .contact-title {
+        text-align: center;
+        margin-top: 100px;
+        font-weight: bold;
 
       }
