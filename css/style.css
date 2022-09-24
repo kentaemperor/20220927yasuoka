@@ -504,7 +504,11 @@
 
       .recruit-title2 {
         position: absolute;
-
+        margin-top: -160px;
+        left: 73%;
+        color: white;
+        font-weight: bold;
+        font-size: 20px;
 
       }
 
