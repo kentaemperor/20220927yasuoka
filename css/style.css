@@ -550,5 +550,22 @@
 
         margin: 100px auto;
 
-        box-shadow: 5px 5px 0 magenta;
+        box-shadow: 5px 5px 0 rgba(154, 2, 154, 0.463);
+      }
+
+
+      .contact-btn::before {
+        position: absolute;
+        background: url(../img/mailicon.svg);
+
+        top: 50%;
+        left: 15px;
+      }
+
+      .small {
+        display: block;
+        text-align: center;
+        background-color: rgb(101, 99, 99);
+        width: 100%;
+        margin-bottom: 0px;
       }
